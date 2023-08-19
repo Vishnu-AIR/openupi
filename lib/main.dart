@@ -35,8 +35,8 @@ class MyUPIPaymentScreen extends StatelessWidget {
       openUPIAppForPayment(
         upiId: "9718325800@upi",
         payeeName: "Visshnu",
-        amount: 100.0,
-        transactionId: "123456",
+        amount: 1.0,
+        transactionId: "vishnu@me.com",
         transactionNote: "hello other side",
       );
     } catch (error) {
